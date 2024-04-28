@@ -1,0 +1,8 @@
+Inverted Half pyramid 
+
+
+******
+*****
+***
+**
+*

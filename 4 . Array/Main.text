@@ -1,0 +1,43 @@
+
+                               * Array Part: 1 *          
+
+1 . Array updation 
+2 . Linear Search                       ---- if else         
+3 . Largest and Smallest in the array   ---- if else
+3 . Binary Search --- > start , end , mid--- while loop 
+4 . Reverse the array ---> while loop ---> temp var---> start , end var 
+
+
+                               * Array Part: 2 * 
+1 . Possible pairs--> o/p---> 
+ 
+                            2 for loops trach curr=i
+                            
+                            1,2  1,3  1,4  1,5  
+                            2,3  2,4  2,5
+                            3,4  3,5
+                            4,5
+
+2. Possible SubArray :
+
+                            3 loops , start , end and k loop for print in between 
+                           
+                            1 
+                            1 2
+                            1 2 3
+                            1 2 3 4
+                            1 2 3 4 5
+
+3. Max Sum Subarray- Brute Force
+
+                            Currsum and larget variable
+                            update Currsum=0 after k loop to 
+                            stop updateing previous subarray Sum
+
+
+4.  Max Sum Subarray- Prefix Sum method
+
+
+                     
+
+
