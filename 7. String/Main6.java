@@ -1,3 +1,11 @@
+//String Function - substring [str.substring(0,6)]
+
+
+
+//imp points 
+//1.string load, append  can be done as  substr+= name.charAt(i);
+//2.method take any types of data parameters but retutn data type data of what data type method declared
+//3. end index excluded in substring so keep it mind 
 
 import java.util.*;
 public class Main6 {
@@ -21,6 +29,7 @@ public class Main6 {
 
         System.out.println(subString(name, si, ei));
 
+
        }while(true);
 
 
@@ -40,7 +49,7 @@ public class Main6 {
         for(int i = si; i < ei ; i++){
 
 
-            substr+= name.charAt(i);
+            substr+= name.charAt(i); //important
 
             
         }
@@ -48,4 +57,18 @@ public class Main6 {
 
         return substr;
     }
+
+
+    // public static void test() {
+
+    //     System.out.println("This is test method");
+
+    //     String name2 = "HelloWorld";
+
+    //     System.out.println(name2.substring(0,10));
+
+
+
+        
+    // }
 }
